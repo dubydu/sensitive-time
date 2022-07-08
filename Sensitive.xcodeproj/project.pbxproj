@@ -19,9 +19,9 @@
 		8108133628782671000BBB40 /* SensitiveIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8108133528782671000BBB40 /* SensitiveIntents.intentdefinition */; };
 		8108133728782671000BBB40 /* SensitiveIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8108133528782671000BBB40 /* SensitiveIntents.intentdefinition */; };
 		8108133828782671000BBB40 /* SensitiveIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8108133528782671000BBB40 /* SensitiveIntents.intentdefinition */; };
-		8108133A287828F9000BBB40 /* makeUppercaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81081339287828F9000BBB40 /* makeUppercaseHandler.swift */; };
-		8108133B287828F9000BBB40 /* makeUppercaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81081339287828F9000BBB40 /* makeUppercaseHandler.swift */; };
-		8108133C287828F9000BBB40 /* makeUppercaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81081339287828F9000BBB40 /* makeUppercaseHandler.swift */; };
+		8108133A287828F9000BBB40 /* MakeUppercaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81081339287828F9000BBB40 /* MakeUppercaseHandler.swift */; };
+		8108133B287828F9000BBB40 /* MakeUppercaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81081339287828F9000BBB40 /* MakeUppercaseHandler.swift */; };
+		8108133C287828F9000BBB40 /* MakeUppercaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81081339287828F9000BBB40 /* MakeUppercaseHandler.swift */; };
 		81D54A8E28767DA00059218E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D54A8D28767DA00059218E /* AppDelegate.swift */; };
 		81D54A9028767DA00059218E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D54A8F28767DA00059218E /* SceneDelegate.swift */; };
 		81D54A9228767DA00059218E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D54A9128767DA00059218E /* ViewController.swift */; };
@@ -67,7 +67,7 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		8108130E28782574000BBB40 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
@@ -93,7 +93,7 @@
 		81081326287825BE000BBB40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		81081328287825BE000BBB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8108133528782671000BBB40 /* SensitiveIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SensitiveIntents.intentdefinition; sourceTree = "<group>"; };
-		81081339287828F9000BBB40 /* makeUppercaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeUppercaseHandler.swift; sourceTree = "<group>"; };
+		81081339287828F9000BBB40 /* MakeUppercaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeUppercaseHandler.swift; sourceTree = "<group>"; };
 		81D54A8A28767DA00059218E /* Sensitive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sensitive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D54A8D28767DA00059218E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81D54A8F28767DA00059218E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -174,7 +174,7 @@
 				81081318287825BE000BBB40 /* IntentHandler.swift */,
 				8108131A287825BE000BBB40 /* Info.plist */,
 				8108133528782671000BBB40 /* SensitiveIntents.intentdefinition */,
-				81081339287828F9000BBB40 /* makeUppercaseHandler.swift */,
+				81081339287828F9000BBB40 /* MakeUppercaseHandler.swift */,
 			);
 			path = SensitiveShortcuts;
 			sourceTree = "<group>";
@@ -440,7 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81081319287825BE000BBB40 /* IntentHandler.swift in Sources */,
-				8108133B287828F9000BBB40 /* makeUppercaseHandler.swift in Sources */,
+				8108133B287828F9000BBB40 /* MakeUppercaseHandler.swift in Sources */,
 				8108133728782671000BBB40 /* SensitiveIntents.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,7 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81081324287825BE000BBB40 /* IntentViewController.swift in Sources */,
-				8108133C287828F9000BBB40 /* makeUppercaseHandler.swift in Sources */,
+				8108133C287828F9000BBB40 /* MakeUppercaseHandler.swift in Sources */,
 				8108133828782671000BBB40 /* SensitiveIntents.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,7 +460,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81D54A9228767DA00059218E /* ViewController.swift in Sources */,
-				8108133A287828F9000BBB40 /* makeUppercaseHandler.swift in Sources */,
+				8108133A287828F9000BBB40 /* MakeUppercaseHandler.swift in Sources */,
 				81D54A8E28767DA00059218E /* AppDelegate.swift in Sources */,
 				810812E4287818E5000BBB40 /* PrimaryButton.swift in Sources */,
 				8108133628782671000BBB40 /* SensitiveIntents.intentdefinition in Sources */,

@@ -6,6 +6,10 @@
 	<dict>
 		<key>NSExtensionAttributes</key>
 		<dict>
+			<key>IntentsRestrictedWhileProtectedDataUnavailable</key>
+			<string></string>
+			<key>IntentsRestrictedWhileLocked</key>
+			<string></string>
 			<key>IntentsSupported</key>
 			<array>
 				<string>INSendMessageIntent</string>

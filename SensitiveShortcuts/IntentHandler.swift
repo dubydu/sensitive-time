@@ -25,6 +25,7 @@ import Intents
 class IntentHandler: INExtension {
     
     override func handler(for intent: INIntent) -> Any {
+        print("============Handler intent============")
         guard intent is SensitiveIntentsIntent else {
             fatalError("Unhandled intent type: \(intent)")
         }

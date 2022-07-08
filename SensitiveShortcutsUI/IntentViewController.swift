@@ -18,19 +18,21 @@ class IntentViewController: UIViewController, INUIHostedViewControlling {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print("Handle intent============4")
     }
         
     // MARK: - INUIHostedViewControlling
     
     // Prepare your view controller for the interaction to handle.
-    func configureView(for parameters: Set<INParameter>, of interaction: INInteraction, interactiveBehavior: INUIInteractiveBehavior, context: INUIHostedViewContext, completion: @escaping (Bool, Set<INParameter>, CGSize) -> Void) {
-        // Do configuration here, including preparing views and calculating a desired size for presentation.
+    func configureView(for parameters: Set<INParameter>,
+                       of interaction: INInteraction,
+                       interactiveBehavior: INUIInteractiveBehavior,
+                       context: INUIHostedViewContext,
+                       completion: @escaping (Bool, Set<INParameter>, CGSize) -> Void) {
         completion(true, parameters, self.desiredSize)
     }
     
     var desiredSize: CGSize {
         return self.extensionContext!.hostedViewMaximumAllowedSize
     }
-    
 }

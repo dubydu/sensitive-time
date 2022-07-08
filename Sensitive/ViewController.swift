@@ -67,6 +67,17 @@ class ViewController: UIViewController {
                 return
             }
         }
+        NotificationCenter
+            .default
+            .addObserver(self,
+                         selector: #selector(processIntent),
+                         name: Notification.Name("intent"),
+                         object: nil
+            )
+    }
+
+    @objc func processIntent() {
+        print("============Process intent============")
     }
 }
 
