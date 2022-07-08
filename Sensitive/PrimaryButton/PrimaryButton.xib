@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrimaryButton" customModule="Sensitive" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="r0k-Oc-BCi" id="4ns-vY-7c1"/>
+                <outlet property="contentView" destination="nEG-1b-Qdw" id="QPt-Sh-IfO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="166" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nEG-1b-Qdw">
+                    <rect key="frame" x="0.0" y="0.0" width="166" height="48"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0k-Oc-BCi">
+                            <rect key="frame" x="0.0" y="0.0" width="166" height="48"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Loading"/>
+                            <connections>
+                                <action selector="touchUpInside:" destination="-1" eventType="touchUpInside" id="RzH-lb-mTs"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="tintColor"/>
+                    <constraints>
+                        <constraint firstItem="r0k-Oc-BCi" firstAttribute="top" secondItem="nEG-1b-Qdw" secondAttribute="top" id="0B0-kx-4dV"/>
+                        <constraint firstAttribute="trailing" secondItem="r0k-Oc-BCi" secondAttribute="trailing" id="1sP-yg-tdD"/>
+                        <constraint firstAttribute="bottom" secondItem="r0k-Oc-BCi" secondAttribute="bottom" id="6Vv-n3-IRW"/>
+                        <constraint firstItem="r0k-Oc-BCi" firstAttribute="leading" secondItem="nEG-1b-Qdw" secondAttribute="leading" id="ztX-73-Txs"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="nEG-1b-Qdw" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="0iE-sr-dCI"/>
+                <constraint firstItem="nEG-1b-Qdw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Llg-4s-bfK"/>
+                <constraint firstItem="nEG-1b-Qdw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SE5-lD-Upu"/>
+                <constraint firstAttribute="trailing" secondItem="nEG-1b-Qdw" secondAttribute="trailing" id="U03-BB-Xcb"/>
+                <constraint firstItem="nEG-1b-Qdw" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Wwt-v2-Hya"/>
+                <constraint firstItem="nEG-1b-Qdw" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="bmg-9U-SqV"/>
+                <constraint firstItem="nEG-1b-Qdw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sIj-w8-tze"/>
+                <constraint firstAttribute="bottom" secondItem="nEG-1b-Qdw" secondAttribute="bottom" id="z7o-zt-uKe"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="318.75" y="-235.56338028169014"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
