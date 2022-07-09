@@ -70,14 +70,27 @@ class ViewController: UIViewController {
         NotificationCenter
             .default
             .addObserver(self,
-                         selector: #selector(processIntent),
+                         selector: #selector(processIntent(notification:)),
                          name: Notification.Name("intent"),
                          object: nil
             )
     }
 
-    @objc func processIntent() {
-        print("============Process intent============")
+    @objc func processIntent(notification: Notification) {
+        if let userInfo = notification.userInfo,
+           let intent = userInfo["intent"] as? OperateNumbersIntent
+        {
+            print("============Process intent============\(intent)")
+        }
+    }
+
+    deinit {
+        NotificationCenter
+            .default
+            .removeObserver(self,
+                            name: Notification.Name("intent"),
+                            object: nil
+            )
     }
 }
 

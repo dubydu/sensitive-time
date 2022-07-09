@@ -31,4 +31,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                options connectionOptions: UIScene.ConnectionOptions) {
         guard let _ = (scene as? UIWindowScene) else { return }
     }
+
+    func scene(_ scene: UIScene,
+               willContinueUserActivityWithType userActivityType: String) {
+        print("___open app from activity type: \(userActivityType)")
+    }
+
+    func scene(_ scene: UIScene,
+               continue userActivity: NSUserActivity) {
+        if let intent = userActivity
+            .interaction?
+            .intent as? OperateNumbersIntent {
+            NotificationCenter.default.post(name: NSNotification.Name(rawValue: "intent"),
+                                            object: nil,
+                                            userInfo: ["intent": intent])
+        }
+    }
 }

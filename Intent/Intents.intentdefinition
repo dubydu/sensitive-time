@@ -69,8 +69,6 @@
 			<string>Performs an arithmetic operation on two numbers.</string>
 			<key>INIntentDescriptionID</key>
 			<string>SOeASv</string>
-			<key>INIntentIneligibleForSuggestions</key>
-			<true/>
 			<key>INIntentLastParameterTag</key>
 			<integer>6</integer>
 			<key>INIntentManagedParameterCombinations</key>
@@ -89,6 +87,22 @@
 			</dict>
 			<key>INIntentName</key>
 			<string>OperateNumbers</string>
+			<key>INIntentParameterCombinations</key>
+			<dict>
+				<key>firstNumber,secondNumber,operation</key>
+				<dict>
+					<key>INIntentParameterCombinationIsLinked</key>
+					<true/>
+					<key>INIntentParameterCombinationIsPrimary</key>
+					<true/>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Perform ${operation} on ${firstNumber} and ${secondNumber}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>OIeEp1</string>
+				</dict>
+			</dict>
 			<key>INIntentParameters</key>
 			<array>
 				<dict>

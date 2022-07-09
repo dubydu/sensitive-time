@@ -74,4 +74,9 @@ class OperateNumbersIntentHandler: NSObject,
           result = .success(with: operation)
         }
     }
+
+    func confirm(intent: OperateNumbersIntent,
+                 completion: @escaping (OperateNumbersIntentResponse) -> Void) {
+        completion(OperateNumbersIntentResponse(code: .ready, userActivity: nil))
+    }
 }
