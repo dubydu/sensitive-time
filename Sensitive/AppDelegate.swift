@@ -36,8 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             .sound,
             .badge,
             .carPlay,
-            .criticalAlert,
-            .provisional
+            .criticalAlert
         ]
         notificationCenter.requestAuthorization(options: options) {
             (allowed, error) in
