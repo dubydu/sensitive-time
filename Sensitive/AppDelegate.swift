@@ -26,6 +26,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     fileprivate let notificationCenter = UNUserNotificationCenter.current()
+    var window: UIWindow?
 
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -44,6 +45,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print("User has declined notifications")
             }
         }
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = ViewController()
+        window?.makeKeyAndVisible()
         return true
     }
 }
@@ -67,6 +71,26 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         completionHandler()
     }
 
+    func application(_ application: UIApplication,
+                     continue userActivity: NSUserActivity,
+                     restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
+        if let intent = userActivity
+            .interaction?
+            .intent as? OperateNumbersIntent {
+            NotificationCenter.default.post(name: NSNotification.Name(rawValue: "intent"),
+                                            object: nil,
+                                            userInfo: ["intent": intent])
+        }
+        return true
+    }
+
+    /*
+    func application(_ application: UIApplication,
+                     willContinueUserActivityWithType userActivityType: String) -> Bool {
+      return true
+    }
+     */
+
     func scheduleNotification(_ notificationType: String) {
         let content = UNMutableNotificationContent()
         let categoryIdentifier = "Delete Notification Type"
@@ -78,14 +102,15 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         if #available(iOS 15.0, *) {
             content.interruptionLevel = .timeSensitive
         }
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10,
+                                                        repeats: false
+        )
         let identifier = "Local Notification"
-        let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
-        notificationCenter.add(request) { (error) in
-            if let error = error {
-                print("Error \(error.localizedDescription)")
-            }
-        }
+        let request = UNNotificationRequest(identifier: identifier,
+                                            content: content,
+                                            trigger: trigger
+        )
+        notificationCenter.add(request)
         let snoozeAction = UNNotificationAction(
             identifier: "Snooze",
             title: "Snooze", options: []

@@ -60,7 +60,7 @@ class ViewController: UIViewController {
             guard let self = self else {
                 return
             }
-            self.showAlertViewController()
+            self.showNotificationAlert()
         }
         shortcutsButton.touchUpInside = { [weak self] in
             guard let self = self else {
@@ -81,6 +81,9 @@ class ViewController: UIViewController {
            let intent = userInfo["intent"] as? OperateNumbersIntent
         {
             print("============Process intent============\(intent)")
+            DispatchQueue.main.async {
+                self.showIntentOperationAlert(intent)
+            }
         }
     }
 
@@ -96,7 +99,7 @@ class ViewController: UIViewController {
 
 extension ViewController {
     // Show local notification alert
-    private func showAlertViewController() {
+    private func showNotificationAlert() {
         let notificationType = "Local Notification"
         let alert = UIAlertController(
             title: "\(notificationType) will appear after 10 seconds.",
@@ -108,6 +111,33 @@ extension ViewController {
             style: .default
         ) { (_) in
             self.appDelegate?.scheduleNotification(notificationType)
+        }
+        alert.addAction(okAction)
+        present(alert, animated: true)
+    }
+
+    private func showIntentOperationAlert(_ intent: OperateNumbersIntent) {
+        let firstNumber = intent.firstNumber!.intValue
+        let secondNumber = intent.secondNumber!.intValue
+        var operationResult = 0
+        switch intent.operation {
+        case .addition:
+            operationResult = firstNumber + secondNumber
+        case .substraction:
+            operationResult = firstNumber - secondNumber
+        case .unknown:
+            break
+        }
+        let alert = UIAlertController(
+            title: "Intents",
+            message: "Perform \(intent.operation) on \(firstNumber) and \(secondNumber) result \(operationResult)",
+            preferredStyle: .alert
+        )
+        let okAction = UIAlertAction(
+            title: "OK",
+            style: .default
+        ) { (_) in
+
         }
         alert.addAction(okAction)
         present(alert, animated: true)
