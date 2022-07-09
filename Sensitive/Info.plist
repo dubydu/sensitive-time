@@ -4,6 +4,7 @@
 <dict>
 	<key>NSUserActivityTypes</key>
 	<array>
+		<string>OperateNumbersIntent</string>
 		<string>SensitiveIntentsIntent</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>

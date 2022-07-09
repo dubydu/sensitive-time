@@ -9,58 +9,38 @@
 /* Begin PBXBuildFile section */
 		810812E4287818E5000BBB40 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810812E3287818E5000BBB40 /* PrimaryButton.swift */; };
 		810812E7287819CA000BBB40 /* PrimaryButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 810812E6287819CA000BBB40 /* PrimaryButton.xib */; };
-		81081316287825BE000BBB40 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81081315287825BE000BBB40 /* Intents.framework */; };
-		81081319287825BE000BBB40 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81081318287825BE000BBB40 /* IntentHandler.swift */; };
-		81081321287825BE000BBB40 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81081320287825BE000BBB40 /* IntentsUI.framework */; };
-		81081324287825BE000BBB40 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81081323287825BE000BBB40 /* IntentViewController.swift */; };
-		81081327287825BE000BBB40 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81081325287825BE000BBB40 /* MainInterface.storyboard */; };
-		8108132B287825BE000BBB40 /* SensitiveShortcutsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8108131F287825BE000BBB40 /* SensitiveShortcutsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8108132E287825BE000BBB40 /* SensitiveShortcuts.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 81081313287825BE000BBB40 /* SensitiveShortcuts.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8108133628782671000BBB40 /* SensitiveIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8108133528782671000BBB40 /* SensitiveIntents.intentdefinition */; };
-		8108133728782671000BBB40 /* SensitiveIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8108133528782671000BBB40 /* SensitiveIntents.intentdefinition */; };
-		8108133828782671000BBB40 /* SensitiveIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8108133528782671000BBB40 /* SensitiveIntents.intentdefinition */; };
-		8108133A287828F9000BBB40 /* MakeUppercaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81081339287828F9000BBB40 /* MakeUppercaseHandler.swift */; };
-		8108133B287828F9000BBB40 /* MakeUppercaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81081339287828F9000BBB40 /* MakeUppercaseHandler.swift */; };
-		8108133C287828F9000BBB40 /* MakeUppercaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81081339287828F9000BBB40 /* MakeUppercaseHandler.swift */; };
+		8168A5A128796D540021C4B2 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8168A5A028796D540021C4B2 /* Intents.framework */; };
+		8168A5A428796D540021C4B2 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8168A5A328796D540021C4B2 /* IntentHandler.swift */; };
+		8168A5AC28796D550021C4B2 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8168A5AB28796D550021C4B2 /* IntentsUI.framework */; };
+		8168A5AF28796D550021C4B2 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8168A5AE28796D550021C4B2 /* IntentViewController.swift */; };
+		8168A5B228796D550021C4B2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8168A5B028796D550021C4B2 /* MainInterface.storyboard */; };
+		8168A5B628796D550021C4B2 /* IntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8168A5AA28796D550021C4B2 /* IntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8168A5B928796D550021C4B2 /* Intent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8168A59E28796D540021C4B2 /* Intent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8168A5C128796D750021C4B2 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8168A5C028796D750021C4B2 /* Intents.intentdefinition */; };
+		8168A5C228796D750021C4B2 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8168A5C028796D750021C4B2 /* Intents.intentdefinition */; };
+		8168A5C528796EE90021C4B2 /* OperateNumbersIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8168A5C328796EE90021C4B2 /* OperateNumbersIntentHandler.swift */; };
 		81D54A8E28767DA00059218E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D54A8D28767DA00059218E /* AppDelegate.swift */; };
 		81D54A9028767DA00059218E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D54A8F28767DA00059218E /* SceneDelegate.swift */; };
 		81D54A9228767DA00059218E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D54A9128767DA00059218E /* ViewController.swift */; };
 		81D54A9528767DA00059218E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D54A9328767DA00059218E /* Main.storyboard */; };
 		81D54A9728767DA20059218E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D54A9628767DA20059218E /* Assets.xcassets */; };
 		81D54A9A28767DA20059218E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D54A9828767DA20059218E /* LaunchScreen.storyboard */; };
-		81D54AA528767DA30059218E /* SensitiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D54AA428767DA30059218E /* SensitiveTests.swift */; };
-		81D54AAF28767DA30059218E /* SensitiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D54AAE28767DA30059218E /* SensitiveUITests.swift */; };
-		81D54AB128767DA30059218E /* SensitiveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D54AB028767DA30059218E /* SensitiveUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		81081329287825BE000BBB40 /* PBXContainerItemProxy */ = {
+		8168A5B428796D550021C4B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 81D54A8228767DA00059218E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8108131E287825BE000BBB40;
-			remoteInfo = SensitiveShortcutsUI;
+			remoteGlobalIDString = 8168A5A928796D550021C4B2;
+			remoteInfo = IntentUI;
 		};
-		8108132C287825BE000BBB40 /* PBXContainerItemProxy */ = {
+		8168A5B728796D550021C4B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 81D54A8228767DA00059218E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 81081312287825BE000BBB40;
-			remoteInfo = SensitiveShortcuts;
-		};
-		81D54AA128767DA30059218E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 81D54A8228767DA00059218E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 81D54A8928767DA00059218E;
-			remoteInfo = Sensitive;
-		};
-		81D54AAB28767DA30059218E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 81D54A8228767DA00059218E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 81D54A8928767DA00059218E;
-			remoteInfo = Sensitive;
+			remoteGlobalIDString = 8168A59D28796D540021C4B2;
+			remoteInfo = Intent;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -71,8 +51,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				8108132B287825BE000BBB40 /* SensitiveShortcutsUI.appex in Embed App Extensions */,
-				8108132E287825BE000BBB40 /* SensitiveShortcuts.appex in Embed App Extensions */,
+				8168A5B928796D550021C4B2 /* Intent.appex in Embed App Extensions */,
+				8168A5B628796D550021C4B2 /* IntentUI.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,17 +63,17 @@
 		810812E22876E5A9000BBB40 /* Sensitive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sensitive.entitlements; sourceTree = "<group>"; };
 		810812E3287818E5000BBB40 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		810812E6287819CA000BBB40 /* PrimaryButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrimaryButton.xib; sourceTree = "<group>"; };
-		81081313287825BE000BBB40 /* SensitiveShortcuts.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SensitiveShortcuts.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		81081315287825BE000BBB40 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
-		81081318287825BE000BBB40 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
-		8108131A287825BE000BBB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8108131F287825BE000BBB40 /* SensitiveShortcutsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SensitiveShortcutsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		81081320287825BE000BBB40 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
-		81081323287825BE000BBB40 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
-		81081326287825BE000BBB40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		81081328287825BE000BBB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8108133528782671000BBB40 /* SensitiveIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SensitiveIntents.intentdefinition; sourceTree = "<group>"; };
-		81081339287828F9000BBB40 /* MakeUppercaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeUppercaseHandler.swift; sourceTree = "<group>"; };
+		8168A59E28796D540021C4B2 /* Intent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Intent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8168A5A028796D540021C4B2 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		8168A5A328796D540021C4B2 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		8168A5A528796D540021C4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8168A5AA28796D550021C4B2 /* IntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8168A5AB28796D550021C4B2 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		8168A5AE28796D550021C4B2 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		8168A5B128796D550021C4B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8168A5B328796D550021C4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8168A5C028796D750021C4B2 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		8168A5C328796EE90021C4B2 /* OperateNumbersIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperateNumbersIntentHandler.swift; sourceTree = "<group>"; };
 		81D54A8A28767DA00059218E /* Sensitive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sensitive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D54A8D28767DA00059218E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81D54A8F28767DA00059218E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,45 +82,26 @@
 		81D54A9628767DA20059218E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81D54A9928767DA20059218E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81D54A9B28767DA20059218E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81D54AA028767DA30059218E /* SensitiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensitiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		81D54AA428767DA30059218E /* SensitiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensitiveTests.swift; sourceTree = "<group>"; };
-		81D54AAA28767DA30059218E /* SensitiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensitiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		81D54AAE28767DA30059218E /* SensitiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensitiveUITests.swift; sourceTree = "<group>"; };
-		81D54AB028767DA30059218E /* SensitiveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensitiveUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		81081310287825BE000BBB40 /* Frameworks */ = {
+		8168A59B28796D540021C4B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81081316287825BE000BBB40 /* Intents.framework in Frameworks */,
+				8168A5A128796D540021C4B2 /* Intents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8108131C287825BE000BBB40 /* Frameworks */ = {
+		8168A5A728796D550021C4B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81081321287825BE000BBB40 /* IntentsUI.framework in Frameworks */,
+				8168A5AC28796D550021C4B2 /* IntentsUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		81D54A8728767DA00059218E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81D54A9D28767DA30059218E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81D54AA728767DA30059218E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -159,45 +120,43 @@
 			path = PrimaryButton;
 			sourceTree = "<group>";
 		};
-		81081314287825BE000BBB40 /* Frameworks */ = {
+		8168A59F28796D540021C4B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				81081315287825BE000BBB40 /* Intents.framework */,
-				81081320287825BE000BBB40 /* IntentsUI.framework */,
+				8168A5A028796D540021C4B2 /* Intents.framework */,
+				8168A5AB28796D550021C4B2 /* IntentsUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		81081317287825BE000BBB40 /* SensitiveShortcuts */ = {
+		8168A5A228796D540021C4B2 /* Intent */ = {
 			isa = PBXGroup;
 			children = (
-				81081318287825BE000BBB40 /* IntentHandler.swift */,
-				8108131A287825BE000BBB40 /* Info.plist */,
-				8108133528782671000BBB40 /* SensitiveIntents.intentdefinition */,
-				81081339287828F9000BBB40 /* MakeUppercaseHandler.swift */,
+				8168A5A328796D540021C4B2 /* IntentHandler.swift */,
+				8168A5A528796D540021C4B2 /* Info.plist */,
+				8168A5C028796D750021C4B2 /* Intents.intentdefinition */,
+				8168A5C328796EE90021C4B2 /* OperateNumbersIntentHandler.swift */,
 			);
-			path = SensitiveShortcuts;
+			path = Intent;
 			sourceTree = "<group>";
 		};
-		81081322287825BE000BBB40 /* SensitiveShortcutsUI */ = {
+		8168A5AD28796D550021C4B2 /* IntentUI */ = {
 			isa = PBXGroup;
 			children = (
-				81081323287825BE000BBB40 /* IntentViewController.swift */,
-				81081325287825BE000BBB40 /* MainInterface.storyboard */,
-				81081328287825BE000BBB40 /* Info.plist */,
+				8168A5AE28796D550021C4B2 /* IntentViewController.swift */,
+				8168A5B028796D550021C4B2 /* MainInterface.storyboard */,
+				8168A5B328796D550021C4B2 /* Info.plist */,
 			);
-			path = SensitiveShortcutsUI;
+			path = IntentUI;
 			sourceTree = "<group>";
 		};
 		81D54A8128767DA00059218E = {
 			isa = PBXGroup;
 			children = (
 				81D54A8C28767DA00059218E /* Sensitive */,
-				81D54AA328767DA30059218E /* SensitiveTests */,
-				81D54AAD28767DA30059218E /* SensitiveUITests */,
-				81081317287825BE000BBB40 /* SensitiveShortcuts */,
-				81081322287825BE000BBB40 /* SensitiveShortcutsUI */,
-				81081314287825BE000BBB40 /* Frameworks */,
+				8168A5A228796D540021C4B2 /* Intent */,
+				8168A5AD28796D550021C4B2 /* IntentUI */,
+				8168A59F28796D540021C4B2 /* Frameworks */,
 				81D54A8B28767DA00059218E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -206,10 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				81D54A8A28767DA00059218E /* Sensitive.app */,
-				81D54AA028767DA30059218E /* SensitiveTests.xctest */,
-				81D54AAA28767DA30059218E /* SensitiveUITests.xctest */,
-				81081313287825BE000BBB40 /* SensitiveShortcuts.appex */,
-				8108131F287825BE000BBB40 /* SensitiveShortcutsUI.appex */,
+				8168A59E28796D540021C4B2 /* Intent.appex */,
+				8168A5AA28796D550021C4B2 /* IntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,58 +187,41 @@
 			path = Sensitive;
 			sourceTree = "<group>";
 		};
-		81D54AA328767DA30059218E /* SensitiveTests */ = {
-			isa = PBXGroup;
-			children = (
-				81D54AA428767DA30059218E /* SensitiveTests.swift */,
-			);
-			path = SensitiveTests;
-			sourceTree = "<group>";
-		};
-		81D54AAD28767DA30059218E /* SensitiveUITests */ = {
-			isa = PBXGroup;
-			children = (
-				81D54AAE28767DA30059218E /* SensitiveUITests.swift */,
-				81D54AB028767DA30059218E /* SensitiveUITestsLaunchTests.swift */,
-			);
-			path = SensitiveUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81081312287825BE000BBB40 /* SensitiveShortcuts */ = {
+		8168A59D28796D540021C4B2 /* Intent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81081332287825BE000BBB40 /* Build configuration list for PBXNativeTarget "SensitiveShortcuts" */;
+			buildConfigurationList = 8168A5BD28796D550021C4B2 /* Build configuration list for PBXNativeTarget "Intent" */;
 			buildPhases = (
-				8108130F287825BE000BBB40 /* Sources */,
-				81081310287825BE000BBB40 /* Frameworks */,
-				81081311287825BE000BBB40 /* Resources */,
+				8168A59A28796D540021C4B2 /* Sources */,
+				8168A59B28796D540021C4B2 /* Frameworks */,
+				8168A59C28796D540021C4B2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SensitiveShortcuts;
-			productName = SensitiveShortcuts;
-			productReference = 81081313287825BE000BBB40 /* SensitiveShortcuts.appex */;
+			name = Intent;
+			productName = Intent;
+			productReference = 8168A59E28796D540021C4B2 /* Intent.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		8108131E287825BE000BBB40 /* SensitiveShortcutsUI */ = {
+		8168A5A928796D550021C4B2 /* IntentUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8108132F287825BE000BBB40 /* Build configuration list for PBXNativeTarget "SensitiveShortcutsUI" */;
+			buildConfigurationList = 8168A5BA28796D550021C4B2 /* Build configuration list for PBXNativeTarget "IntentUI" */;
 			buildPhases = (
-				8108131B287825BE000BBB40 /* Sources */,
-				8108131C287825BE000BBB40 /* Frameworks */,
-				8108131D287825BE000BBB40 /* Resources */,
+				8168A5A628796D550021C4B2 /* Sources */,
+				8168A5A728796D550021C4B2 /* Frameworks */,
+				8168A5A828796D550021C4B2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SensitiveShortcutsUI;
-			productName = SensitiveShortcutsUI;
-			productReference = 8108131F287825BE000BBB40 /* SensitiveShortcutsUI.appex */;
+			name = IntentUI;
+			productName = IntentUI;
+			productReference = 8168A5AA28796D550021C4B2 /* IntentUI.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		81D54A8928767DA00059218E /* Sensitive */ = {
@@ -296,49 +236,13 @@
 			buildRules = (
 			);
 			dependencies = (
-				8108132A287825BE000BBB40 /* PBXTargetDependency */,
-				8108132D287825BE000BBB40 /* PBXTargetDependency */,
+				8168A5B528796D550021C4B2 /* PBXTargetDependency */,
+				8168A5B828796D550021C4B2 /* PBXTargetDependency */,
 			);
 			name = Sensitive;
 			productName = Sensitive;
 			productReference = 81D54A8A28767DA00059218E /* Sensitive.app */;
 			productType = "com.apple.product-type.application";
-		};
-		81D54A9F28767DA30059218E /* SensitiveTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 81D54AB728767DA30059218E /* Build configuration list for PBXNativeTarget "SensitiveTests" */;
-			buildPhases = (
-				81D54A9C28767DA30059218E /* Sources */,
-				81D54A9D28767DA30059218E /* Frameworks */,
-				81D54A9E28767DA30059218E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				81D54AA228767DA30059218E /* PBXTargetDependency */,
-			);
-			name = SensitiveTests;
-			productName = SensitiveTests;
-			productReference = 81D54AA028767DA30059218E /* SensitiveTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		81D54AA928767DA30059218E /* SensitiveUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 81D54ABA28767DA30059218E /* Build configuration list for PBXNativeTarget "SensitiveUITests" */;
-			buildPhases = (
-				81D54AA628767DA30059218E /* Sources */,
-				81D54AA728767DA30059218E /* Frameworks */,
-				81D54AA828767DA30059218E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				81D54AAC28767DA30059218E /* PBXTargetDependency */,
-			);
-			name = SensitiveUITests;
-			productName = SensitiveUITests;
-			productReference = 81D54AAA28767DA30059218E /* SensitiveUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -350,22 +254,14 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					81081312287825BE000BBB40 = {
+					8168A59D28796D540021C4B2 = {
 						CreatedOnToolsVersion = 13.4;
 					};
-					8108131E287825BE000BBB40 = {
+					8168A5A928796D550021C4B2 = {
 						CreatedOnToolsVersion = 13.4;
 					};
 					81D54A8928767DA00059218E = {
 						CreatedOnToolsVersion = 13.4;
-					};
-					81D54A9F28767DA30059218E = {
-						CreatedOnToolsVersion = 13.4;
-						TestTargetID = 81D54A8928767DA00059218E;
-					};
-					81D54AA928767DA30059218E = {
-						CreatedOnToolsVersion = 13.4;
-						TestTargetID = 81D54A8928767DA00059218E;
 					};
 				};
 			};
@@ -383,27 +279,25 @@
 			projectRoot = "";
 			targets = (
 				81D54A8928767DA00059218E /* Sensitive */,
-				81D54A9F28767DA30059218E /* SensitiveTests */,
-				81D54AA928767DA30059218E /* SensitiveUITests */,
-				81081312287825BE000BBB40 /* SensitiveShortcuts */,
-				8108131E287825BE000BBB40 /* SensitiveShortcutsUI */,
+				8168A59D28796D540021C4B2 /* Intent */,
+				8168A5A928796D550021C4B2 /* IntentUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		81081311287825BE000BBB40 /* Resources */ = {
+		8168A59C28796D540021C4B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8108131D287825BE000BBB40 /* Resources */ = {
+		8168A5A828796D550021C4B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81081327287825BE000BBB40 /* MainInterface.storyboard in Resources */,
+				8168A5B228796D550021C4B2 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,40 +312,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81D54A9E28767DA30059218E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81D54AA828767DA30059218E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8108130F287825BE000BBB40 /* Sources */ = {
+		8168A59A28796D540021C4B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81081319287825BE000BBB40 /* IntentHandler.swift in Sources */,
-				8108133B287828F9000BBB40 /* MakeUppercaseHandler.swift in Sources */,
-				8108133728782671000BBB40 /* SensitiveIntents.intentdefinition in Sources */,
+				8168A5C528796EE90021C4B2 /* OperateNumbersIntentHandler.swift in Sources */,
+				8168A5C228796D750021C4B2 /* Intents.intentdefinition in Sources */,
+				8168A5A428796D540021C4B2 /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8108131B287825BE000BBB40 /* Sources */ = {
+		8168A5A628796D550021C4B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81081324287825BE000BBB40 /* IntentViewController.swift in Sources */,
-				8108133C287828F9000BBB40 /* MakeUppercaseHandler.swift in Sources */,
-				8108133828782671000BBB40 /* SensitiveIntents.intentdefinition in Sources */,
+				8168A5AF28796D550021C4B2 /* IntentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,61 +338,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				81D54A9228767DA00059218E /* ViewController.swift in Sources */,
-				8108133A287828F9000BBB40 /* MakeUppercaseHandler.swift in Sources */,
 				81D54A8E28767DA00059218E /* AppDelegate.swift in Sources */,
 				810812E4287818E5000BBB40 /* PrimaryButton.swift in Sources */,
-				8108133628782671000BBB40 /* SensitiveIntents.intentdefinition in Sources */,
+				8168A5C128796D750021C4B2 /* Intents.intentdefinition in Sources */,
 				81D54A9028767DA00059218E /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81D54A9C28767DA30059218E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81D54AA528767DA30059218E /* SensitiveTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81D54AA628767DA30059218E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81D54AAF28767DA30059218E /* SensitiveUITests.swift in Sources */,
-				81D54AB128767DA30059218E /* SensitiveUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8108132A287825BE000BBB40 /* PBXTargetDependency */ = {
+		8168A5B528796D550021C4B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8108131E287825BE000BBB40 /* SensitiveShortcutsUI */;
-			targetProxy = 81081329287825BE000BBB40 /* PBXContainerItemProxy */;
+			target = 8168A5A928796D550021C4B2 /* IntentUI */;
+			targetProxy = 8168A5B428796D550021C4B2 /* PBXContainerItemProxy */;
 		};
-		8108132D287825BE000BBB40 /* PBXTargetDependency */ = {
+		8168A5B828796D550021C4B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 81081312287825BE000BBB40 /* SensitiveShortcuts */;
-			targetProxy = 8108132C287825BE000BBB40 /* PBXContainerItemProxy */;
-		};
-		81D54AA228767DA30059218E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 81D54A8928767DA00059218E /* Sensitive */;
-			targetProxy = 81D54AA128767DA30059218E /* PBXContainerItemProxy */;
-		};
-		81D54AAC28767DA30059218E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 81D54A8928767DA00059218E /* Sensitive */;
-			targetProxy = 81D54AAB28767DA30059218E /* PBXContainerItemProxy */;
+			target = 8168A59D28796D540021C4B2 /* Intent */;
+			targetProxy = 8168A5B728796D550021C4B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		81081325287825BE000BBB40 /* MainInterface.storyboard */ = {
+		8168A5B028796D550021C4B2 /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				81081326287825BE000BBB40 /* Base */,
+				8168A5B128796D550021C4B2 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -538,15 +388,15 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		81081330287825BE000BBB40 /* Debug */ = {
+		8168A5BB28796D550021C4B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZVSSHMTWJG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SensitiveShortcutsUI/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SensitiveShortcutsUI;
+				INFOPLIST_FILE = IntentUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IntentUI;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -555,7 +405,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dubydu.Sensitive.SensitiveShortcutsUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dubydu.Sensitive.IntentUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -564,15 +414,15 @@
 			};
 			name = Debug;
 		};
-		81081331287825BE000BBB40 /* Release */ = {
+		8168A5BC28796D550021C4B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZVSSHMTWJG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SensitiveShortcutsUI/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SensitiveShortcutsUI;
+				INFOPLIST_FILE = IntentUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IntentUI;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -581,7 +431,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dubydu.Sensitive.SensitiveShortcutsUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dubydu.Sensitive.IntentUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -590,15 +440,15 @@
 			};
 			name = Release;
 		};
-		81081333287825BE000BBB40 /* Debug */ = {
+		8168A5BE28796D550021C4B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZVSSHMTWJG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SensitiveShortcuts/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SensitiveShortcuts;
+				INFOPLIST_FILE = Intent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Intent;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -607,7 +457,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dubydu.Sensitive.SensitiveShortcuts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dubydu.Sensitive.Intent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -616,15 +466,15 @@
 			};
 			name = Debug;
 		};
-		81081334287825BE000BBB40 /* Release */ = {
+		8168A5BF28796D550021C4B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZVSSHMTWJG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SensitiveShortcuts/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SensitiveShortcuts;
+				INFOPLIST_FILE = Intent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Intent;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -633,7 +483,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dubydu.Sensitive.SensitiveShortcuts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dubydu.Sensitive.Intent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -820,99 +670,23 @@
 			};
 			name = Release;
 		};
-		81D54AB828767DA30059218E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZVSSHMTWJG;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dubydu.SensitiveTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sensitive.app/Sensitive";
-			};
-			name = Debug;
-		};
-		81D54AB928767DA30059218E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZVSSHMTWJG;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dubydu.SensitiveTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sensitive.app/Sensitive";
-			};
-			name = Release;
-		};
-		81D54ABB28767DA30059218E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZVSSHMTWJG;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dubydu.SensitiveUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Sensitive;
-			};
-			name = Debug;
-		};
-		81D54ABC28767DA30059218E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZVSSHMTWJG;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dubydu.SensitiveUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Sensitive;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8108132F287825BE000BBB40 /* Build configuration list for PBXNativeTarget "SensitiveShortcutsUI" */ = {
+		8168A5BA28796D550021C4B2 /* Build configuration list for PBXNativeTarget "IntentUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81081330287825BE000BBB40 /* Debug */,
-				81081331287825BE000BBB40 /* Release */,
+				8168A5BB28796D550021C4B2 /* Debug */,
+				8168A5BC28796D550021C4B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81081332287825BE000BBB40 /* Build configuration list for PBXNativeTarget "SensitiveShortcuts" */ = {
+		8168A5BD28796D550021C4B2 /* Build configuration list for PBXNativeTarget "Intent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81081333287825BE000BBB40 /* Debug */,
-				81081334287825BE000BBB40 /* Release */,
+				8168A5BE28796D550021C4B2 /* Debug */,
+				8168A5BF28796D550021C4B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -931,24 +705,6 @@
 			buildConfigurations = (
 				81D54AB528767DA30059218E /* Debug */,
 				81D54AB628767DA30059218E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		81D54AB728767DA30059218E /* Build configuration list for PBXNativeTarget "SensitiveTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				81D54AB828767DA30059218E /* Debug */,
-				81D54AB928767DA30059218E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		81D54ABA28767DA30059218E /* Build configuration list for PBXNativeTarget "SensitiveUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				81D54ABB28767DA30059218E /* Debug */,
-				81D54ABC28767DA30059218E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

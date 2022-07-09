@@ -6,20 +6,22 @@
 	<dict>
 		<key>NSExtensionAttributes</key>
 		<dict>
-			<key>IntentsRestrictedWhileProtectedDataUnavailable</key>
-			<string></string>
 			<key>IntentsRestrictedWhileLocked</key>
-			<string></string>
+			<array/>
+			<key>IntentsRestrictedWhileProtectedDataUnavailable</key>
+			<array/>
 			<key>IntentsSupported</key>
 			<array>
+				<string>INSearchForMessagesIntent</string>
 				<string>INSendMessageIntent</string>
-				<string>SensitiveIntentsIntent</string>
+				<string>INSetMessageAttributeIntent</string>
+				<string>OperateNumbersIntent</string>
 			</array>
 		</dict>
-		<key>NSExtensionMainStoryboard</key>
-		<string>MainInterface</string>
 		<key>NSExtensionPointIdentifier</key>
-		<string>com.apple.intents-ui-service</string>
+		<string>com.apple.intents-service</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>$(PRODUCT_MODULE_NAME).IntentHandler</string>
 	</dict>
 </dict>
 </plist>
