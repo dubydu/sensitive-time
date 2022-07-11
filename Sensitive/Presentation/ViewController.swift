@@ -60,7 +60,9 @@ class ViewController: UIViewController {
             guard let self = self else {
                 return
             }
-            self.showNotificationAlert()
+            DispatchQueue.main.async {
+                self.showNotificationAlert()
+            }
         }
         shortcutsButton.touchUpInside = { [weak self] in
             guard let self = self else {
